@@ -8,10 +8,10 @@ to use this library you have to add following line in dependency section of carg
 your cargo.toml file should look like this:
 ```
 [package]
-name = "hello_world"
+name = "location"
 version = "0.1.0"
-authors = ["imran82ali <code.imranali@gmail.com>"]
-edition = "2018"
+authors = ["wajid ali"]
+edition = "2020"
 GitHub = https://github.com/scorpasdzx/location.git
 
 [dependencies]
@@ -28,7 +28,7 @@ fn main() {
 ```
 following will also work:
 ```
-use pakistan::islamabad::piaic;
+use location::ques3::location;
 fn main() {
 location();
     }
