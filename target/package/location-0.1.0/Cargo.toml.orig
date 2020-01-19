@@ -3,11 +3,6 @@ name = "location"
 version = "0.1.0"
 authors = ["Wajid Ali <wajidali1987@gmail.com>"]
 edition = "2018"
-repository = "https://github.com/scorpasdzx/location.git"
-homepage = "https://github.com/scorpasdzx/location.git"
-license = "MIT/Apache-2.0"
-readme = "README.md"
-description = "Sample Library from PIAIC Batch3 IoT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
