@@ -3,7 +3,7 @@ this is a demo rust library published on crates.io
 
 to use this library you have to add following line in dependency section of cargo.toml
 
-`pakistan = "0.1.0"`
+`location = "0.1.0"`
 
 your cargo.toml file should look like this:
 ```
@@ -12,26 +12,25 @@ name = "hello_world"
 version = "0.1.0"
 authors = ["imran82ali <code.imranali@gmail.com>"]
 edition = "2018"
+GitHub = https://github.com/scorpasdzx/location.git
 
 [dependencies]
-pakistan = "0.1.0"
+location = "0.1.0"
 ```
 
 In `src/main.rs` you can use like this:
 
 ```
-use pakistan;
+use location;
 fn main() {
-    println!("Hello, world!");
-    pakistan::islamabad::piaic();
+    location::ques3::location();
 }
 ```
 following will also work:
 ```
 use pakistan::islamabad::piaic;
 fn main() {
-    println!("Hello, world!");
-    piaic();
+location();
     }
 ```
 
