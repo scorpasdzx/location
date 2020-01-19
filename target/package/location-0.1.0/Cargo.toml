@@ -15,5 +15,10 @@ edition = "2018"
 name = "location"
 version = "0.1.0"
 authors = ["Wajid Ali <wajidali1987@gmail.com>"]
+description = "Sample Library from PIAIC Batch3 IoT"
+homepage = "https://github.com/scorpasdzx/location.git"
+readme = "README.md"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/scorpasdzx/location.git"
 
 [dependencies]
